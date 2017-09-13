@@ -1,0 +1,16 @@
+<nav>
+    <ul>
+        {{#each collections}}
+        <li>
+            <a href="/{{ path }}">{{ @key }}</a>
+            <ul>
+                {{#each this }}
+                  <li>
+                    <a href="/{{ this.path }}">{{ this.title }}</a>
+                  </li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/each}}
+    </ul>
+</nav>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{title}}</title>
+</head>
+<body>
+    {{> navigation }}
+
+    <div id="app">
+        <h1>{{ data.name }}</h1>
+        <p>{{ data.description }}</p>
+
+        {{#if data.example}}
+        <iframe src="{{ data.example }}" frameborder="0"></iframe>
+        {{/if}}
+
+        {{#if data.colors}}
+        <gb-colors></gb-colors>
+        {{/if}}
+    </div>
+
+
+    <script src="https://unpkg.com/vue"></script>
+    <script type="text/javascript">
+        var app = new Vue({
+            el: '#app',
+            mounted: function(){
+                console.log('VueJs');
+            }
+        });
+    </script>
+</body>
+</html>

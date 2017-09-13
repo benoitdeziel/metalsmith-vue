@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Buttons",
+        "description": "This is the description",
+        "example": "example.html"
+    },
+    {
+        "name": "Cards",
+        "description": "This is the description",
+        "example": "example.html"
+    },
+    {
+        "name": "Colors",
+        "colors": {
+            "primary": {
+                "100": "ffffff"
+            }
+        }
+    }
+]

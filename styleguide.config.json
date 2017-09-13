@@ -1,0 +1,11 @@
+{
+    "source": "./src",
+    "destination": "./build",
+    "metadata": {
+        "title": "Metalsmith + Vue.js",
+        "description": "A demo site"
+    },
+    "collections": {
+
+    }
+}
